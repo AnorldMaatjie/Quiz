@@ -1,0 +1,101 @@
+<!--
+  Generated template for the PartiesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>parties</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+
+<ion-content padding class="main">
+
+
+  <ion-slides pager>
+
+    <ion-slide >
+        <ion-list radio-group [(ngModel)]="Question1">
+      <h2>how many political parties in SA?</h2>
+      <ion-item>
+        <ion-label id="label">15</ion-label>
+        <ion-radio value="15" (click)="goToSlide()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">13</ion-label>
+        <ion-radio value="13" (click)="goToSlide()"></ion-radio>
+      </ion-item>
+      </ion-list>
+    </ion-slide>
+  
+    <ion-slide >
+        <ion-list radio-group [(ngModel)]="Question2">
+      <h2>Which political party Mandela belong to?</h2>
+      <ion-item>
+        <ion-label id="label">African National Congress</ion-label>
+        <ion-radio value="ANC" (click)="goToSlide2()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">National Freedom Party</ion-label>
+        <ion-radio value=" NFP" (click)="goToSlide2()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    </ion-slide>
+  
+    <ion-slide  >
+        <ion-list radio-group [(ngModel)]="Question3">
+      <h2>Which political party Malema belong to?</h2>
+      <ion-item>
+        <ion-label id="label">Democratic Alliance</ion-label>
+        <ion-radio value="DA" (click)="goToSlide3()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">Economic Freedom Fighters</ion-label>
+        <ion-radio value="EFF" (click)="goToSlide3()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    </ion-slide>
+
+     <ion-slide >
+        <ion-list radio-group [(ngModel)]="Question4">
+      <h2>Which political party Maimane belong to ?</h2>
+      <ion-item>
+        <ion-label id="label">Democratic Alliance</ion-label>
+        <ion-radio value="DA" (click)="goToSlide4()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">Freedom Front Plus</ion-label>
+        <ion-radio value="FFP" (click)="goToSlide4()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    </ion-slide>
+
+
+    <ion-slide  >
+        <ion-list radio-group [(ngModel)]="Question5">
+      <h2>Which political party Mbuyiseni belong to?</h2>
+      <ion-item class="item">
+        <ion-label id="label">Freedom Front Plus</ion-label>
+        <ion-radio value="FFP" (click)="goToSlide5()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">Economic Freedom Fighters</ion-label>
+        <ion-radio value="EFF" (click)="goToSlide5()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    <button ion-button block  round id="button" (click)="Start5()">Submit</button>
+    </ion-slide>
+
+
+   
+    
+  
+  </ion-slides>
+
+  
+
+</ion-content>

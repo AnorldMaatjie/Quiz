@@ -1,0 +1,37 @@
+page-color {
+    .main{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url('../../assets/imgs/c.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    h2{
+     text-align: center;
+     font-size: 50px;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: italic;
+    margin-top:60 px;
+    color: white;
+    
+    }
+
+    .item{
+
+        background-color: rgba(0, 0, 0, 0);
+        // border-color: rgba(0, 0, 0, 0);
+       border: 2px solid rgba(255, 255, 255, 0.308);
+       border-radius: 50px;
+       
+     }
+
+
+    #button{
+    margin-top: 20px;
+    color: white;
+    }
+
+
+    #label{
+        color: white;
+    } 
+}

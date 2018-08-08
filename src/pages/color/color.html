@@ -1,0 +1,108 @@
+<!--
+  Generated template for the ColorPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>Color</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+
+<ion-content padding class="main">
+
+
+  <ion-slides pager>
+
+    <ion-slide>
+        <ion-list radio-group [(ngModel)]="Question1">
+      <h2>What is the color of red?</h2>
+      <ion-item class="item">
+        <ion-label id="label">Love</ion-label>
+        <ion-radio value="love" (click)="goToSlide()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">Death</ion-label>
+        <ion-radio value="death" (click)="goToSlide()"></ion-radio>
+      </ion-item>
+      </ion-list>
+    </ion-slide>
+  
+    <ion-slide >
+        <ion-list radio-group [(ngModel)]="Question2">
+      <h2>What is the color of Orange ?</h2>
+      <ion-item>
+        <ion-label id="label">creativity</ion-label>
+        <ion-radio value="creativity" (click)="goToSlide2()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label"> vigor</ion-label>
+        <ion-radio value=" vigor" (click)="goToSlide2()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    </ion-slide>
+  
+    <ion-slide  >
+        <ion-list radio-group [(ngModel)]="Question3">
+      <h2>What is the color of Gold ?</h2>
+      <ion-item>
+        <ion-label id="label">Wealth</ion-label>
+        <ion-radio value="wealth" (click)="goToSlide3()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">high-tech</ion-label>
+        <ion-radio value="high" (click)="goToSlide3()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    </ion-slide>
+
+     <ion-slide >
+        <ion-list radio-group [(ngModel)]="Question4">
+      <h2>What is the color of Gray ?</h2>
+      <ion-item>
+        <ion-label id="label">emotionless</ion-label>
+        <ion-radio value="emot" (click)="goToSlide4()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">gray power</ion-label>
+        <ion-radio value="power" (click)="goToSlide4()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    </ion-slide>
+
+
+    <ion-slide  >
+        <ion-list radio-group [(ngModel)]="Question5">
+      <h2>What is the color of Silver?</h2>
+      <ion-item>
+        <ion-label id="label">sophisticated</ion-label>
+        <ion-radio value="soph" (click)="goToSlide5()" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label id="label">authority</ion-label>
+        <ion-radio value="author" (click)="goToSlide5()"></ion-radio>
+      </ion-item>
+    </ion-list>
+    <button ion-button block clear  round id="button" (click)="Start1()">Submit</button>
+    </ion-slide>
+
+
+    
+    
+
+  </ion-slides>
+
+
+
+
+
+ 
+
+
+
+
+</ion-content>
